@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Black Button Links</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            background-color: #f0f0f0;
+        }
+        .button-container {
+            display: flex;
+            flex-direction: column;
+            gap: 2px;
+        }
+        .button {
+            background-color: black;
+            width: 200px;
+            height: 50px;
+            border: none;
+            display: block;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+        .button:hover {
+            background-color: #333;
+        }
+    </style>
+</head>
+<body>
+    <div class="button-container">
+        <a href="https://www.example1.com" class="button" aria-label="Link to Website 1"></a>
+        <a href="https://www.example2.com" class="button" aria-label="Link to Website 2"></a>
+        <a href="https://www.example3.com" class="button" aria-label="Link to Website 3"></a>
+        <a href="https://www.example4.com" class="button" aria-label="Link to Website 4"></a>
+    </div>
+</body>
+</html>
